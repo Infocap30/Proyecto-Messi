@@ -1,164 +1,133 @@
 /* Variables */
-
-$font: Barlow  !default;
-$Azul: #0182c2;
-$Blanco: #f3f3f3;
-
 header {
-  padding-top: 10px;
-}
+  padding-top: 10px; }
 
 #grilla {
   display: grid;
-   grid-template-areas:
-   "header"
-   "principal"
-   "partido"
-   "marca"
-   "form"
-   "footer";
-}
+  grid-template-areas: "header"
+ "principal"
+ "partido"
+ "marca"
+ "form"
+ "footer"; }
 
 header {
-  grid-area: header;
-}
+  grid-area: header; }
 
 #principal {
-  grid-area: principal;
-}
+  grid-area: principal; }
 
-#proxPartido  {
-  grid-area: partido;
-}
+#proxPartido {
+  grid-area: partido; }
 
-#marcaMessi  {
-  grid-area: marca;
-}
+#marcaMessi {
+  grid-area: marca; }
 
-form  {
-  grid-area: form;
-}
+form {
+  grid-area: form; }
 
-footer  {
-  grid-area: footer;
-}
+footer {
+  grid-area: footer; }
 
-#footer  {
-  display: flex;  
+#footer {
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 40px;
-}
+  padding: 40px; }
 
-#insta  {
-  display: flex;  
+#insta {
+  display: flex;
   flex-direction: column;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
-#insta2  {
-  display: flex;  
+#insta2 {
+  display: flex;
   flex-direction: row;
-   align-items: center; 
-   margin-top: -20px;
-}
+  align-items: center;
+  margin-top: -20px; }
 
-#imgInsta  {
+#imgInsta {
   width: 18px;
   height: 18px;
-  margin-left: 10px;
-}
+  margin-left: 10px; }
 
 #leoMessi {
   font-size: 25px;
   transform: translateY(5px); }
 
 #seguir {
-   font-size: 18px;
-   text-decoration: none;
-    font-weight: 500;
-   background-color: white;
-   border-radius: 5px;
-   border: 1px solid #cecece;
-}
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #cecece; }
 
 #logo {
-    display:block;
-    margin:auto;
-       animation-duration: 2s;
-   animation-name: aparecer;
-}
+  display: block;
+  margin: auto;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #menu {
-   color: $Blanco;
-   text-align: center;
-   font-size: 18px;
-    background-color: $Azul;
-    list-style-type: none;
-    padding-top: 5px;
-   padding-bottom: 5px;
-}
+  color: #f3f3f3;
+  text-align: center;
+  font-size: 18px;
+  background-color: #0182c2;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .menuHome {
-   color: $Blanco;
-   text-align: center;
-   font-size: 15px;
-    background-color: $Azul;
-    list-style-type: none;
-    padding-top: 4px;
-    padding-bottom: 4px;
-      transform: translate(0px, 20px);
-}
+  color: #f3f3f3;
+  text-align: center;
+  font-size: 15px;
+  background-color: #0182c2;
+  list-style-type: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transform: translate(0px, 20px); }
 
 .menuli {
-   display: inline;
-   text-align: center;
-   margin: 0 15px 0 0;
-   padding-left: 13px;
-    list-style-type: none;
-}
+  display: inline;
+  text-align: center;
+  margin: 0 15px 0 0;
+  padding-left: 13px;
+  list-style-type: none; }
 
 .menuli:hover {
-   list-style-type: none;
+  list-style-type: none;
   background-color: black;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 13px;
-}
+  padding-left: 13px; }
 
 .seccion {
   list-style-type: none;
-   margin-right: 18px;
-    color: white; 
-}
-
+  margin-right: 18px;
+  color: white; }
 
 .seccion:hover {
   text-decoration: none;
-   margin-right: 15px;
-    color: white;
-  
-}
+  margin-right: 15px;
+  color: white; }
 
 .inicio {
-   background-image: url(../Imagenes/Camp.jpg);
-   background-repeat:no-repeat;
-    background-size:cover;
-    padding-top: 20px;
-}
+  background-image: url(../Imagenes/Camp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px; }
 
 .inicio__titulo {
-   color: $Blanco;
-   font-size: 50px;
-   font-weight: bold;
-   font-style: italic;
-   text-transform: uppercase;
-   text-align: center;
-   animation-duration: 2s;
-   animation-name: aparecer;
-
-}
+  color: #f3f3f3;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #inicio__messi {
   position: relative;
@@ -168,65 +137,55 @@ footer  {
   height: 684px;
   margin-bottom: -100px;
   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-name: aparecer; }
 
 #inicio__video {
   width: 854;
   height: 480;
-   margin-left: 30px; 
-   margin-top: 10px;
-   margin-bottom: 20px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-
-}
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #inicio__resumen {
-   color: $Blanco;
-   margin-left: 30px;
-   font-size: 25px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  color: #f3f3f3;
+  margin-left: 30px;
+  font-size: 25px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #inicio__parrafo {
-   color: $Blanco;
-   margin-left: 30px;
-   font-size: 20px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  color: #f3f3f3;
+  margin-left: 30px;
+  font-size: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 .titulos {
-   color: $Azul;
-   text-align: center;
-    font-size: 22px;
-    margin-top: 50px;
-   margin-bottom: 50px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  color: #0182c2;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #fondo2 {
   animation-duration: 2s;
-   animation-name: aparecer;
-   margin-bottom: 30px;
-}
+  animation-name: aparecer;
+  margin-bottom: 30px; }
 
 #titulo {
-     margin-top: 50px;
-     text-align: center;
-}
-
+  margin-top: 50px;
+  text-align: center; }
 
 #partido {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  }
+  justify-content: space-around; }
 
-  #p1 {
+#p1 {
   transform: translateY(15px); }
 
 #barcelona {
@@ -236,223 +195,209 @@ footer  {
   margin-left: 250px; }
 
 #formulario {
-   background-color: black;
-   text-align: center;
-   color: $Blanco;
-    margin-top: 40px;
-   margin-bottom: 20px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  background-color: black;
+  text-align: center;
+  color: #f3f3f3;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 .formPrincipal {
-   margin-top: 5px;
-   margin-bottom: 5px;
-}
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
 #marca {
-   text-align: center;
-   font-size: 30px;
-   font-weight: Light;
-   margin-top: 40px;
-   margin-bottom: 30px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  text-align: center;
+  font-size: 30px;
+  font-weight: Light;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 #parrafo2 {
-   font-size: 20px;
-   text-align: center;
-   margin-right: 80px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 80px;
   margin-left: 80px;
   animation-duration: 2s;
-   animation-name: aparecer;
+  animation-name: aparecer; }
 
-}
-
-.tituloPrincipal2{
-   font-size: 50px;
-   text-align: center;
-   font-weight: bold;
-   font-style: italic;
-   text-transform: uppercase;
-   margin-top: 40px;
-   margin-bottom: 25px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+.tituloPrincipal2 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 .parrafo3 {
-   font-size: 18px;
-   margin-right: 20px;
-   margin-left: 20px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
-#messiRonaldinho  {
+#messiRonaldinho {
   position: relative;
   float: right;
   width: 360px;
   height: 542px;
   margin-left: 20px;
   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-name: aparecer; }
 
-#formulario2  {
+#formulario2 {
   text-align: center;
-   margin-top: 30px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  margin-top: 30px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
-#tabla  {
+  .losInput {
+   width: 300px; }
+
+
+#tabla {
   text-align: center;
   margin: 0 auto;
   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-name: aparecer; }
 
 footer {
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 .galeria {
-  display:inline;
+  display: inline;
   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-name: aparecer; }
 
-@media (max-width: 575.98px) { .galeria {
-       display: block;
-       text-align: center;
-       margin: 0px auto;
-        }
-}
+@media (max-width: 575.98px) {
+  .galeria {
+    display: block;
+    text-align: center;
+    margin: 0px auto; } }
 
-@media (max-width: 991.98px) { .galeria {
-       display: block;
-       text-align: center;
-       margin: 0px auto;
-        } }
+@media (max-width: 991.98px) {
+  .galeria {
+    display: block;
+    text-align: center;
+    margin: 0px auto; } }
 
 .img1 {
   display: inline;
   width: 300px;
-   height: 200px;
-   transition: 0.5s;
-   margin-top: 20px;
-   margin-left: 25px;
-   -webkit-box-shadow: 2px 2px 5px #999;
-   -moz-box-shadow: 2px 2px 5px #999;
-   filter: shadow(color=#999999, direction=135, strength=2);;
-}
+  height: 200px;
+  transition: 0.5s;
+  margin-top: 20px;
+  margin-left: 25px;
+  -webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2); }
 
 .img1:hover {
-   -webkit-transform:scale(1.05);
-   transform:scale(1.05);
-}
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05); }
 
-#contacto { 
-   background-image:  url("../Imagenes/Camp.jpg");
-   background-repeat:no-repeat;
-   background-size:cover;
-   height: 100vh;
-   padding-top: 100px;
-}
+#contacto {
+  background-image: url("../Imagenes/Camp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 100px; }
 
 .contacto__Titulo {
-   color: $Blanco;
-   font-size: 50px;
-   font-weight: bold;
-   font-style: italic;
-   text-transform: uppercase;
-   text-align: center;
-   animation-duration: 2s;
-   animation-name: aparecer;
-}
-
-#drop { 
-  margin-left: 30px
-}
-
-#padreStoree { 
-  display: flex;  
-  flex-direction: row; 
-  justify-content: space-around; 
+  color: #f3f3f3;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
   animation-duration: 2s;
-   animation-name: aparecer;
-}
+  animation-name: aparecer; }
 
-.imgStore { 
-display: flex;  
-  flex-direction: column; 
+#drop {
+  margin-left: 30px;
+  margin-top: -20px; }
+
+#padreStoree {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  width: 600px;
-}
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
- .contenedor {
+.imgStore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 600px; }
+
+.contenedor {
   position: relative;
   height: 290px;
   width: 290px;
   margin: 50px 20px;
-  float: left;
-}
+  float: left; }
 
 .contenedor img {
   position: absolute;
   left: 0;
-  transition: opacity 0.5s ease-in-out;
-}
+  transition: opacity 0.5s ease-in-out; }
 
 .contenedor img.top:hover {
-  opacity: 0;
-}
+  opacity: 0; }
 
-@media (max-width: 575.98px) { .imgStore { 
-width: 350px;
-} }
+@media (max-width: 575.98px) {
+  .imgStore {
+    width: 350px; } }
 
 #store {
-  display: flex;  
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
-   color: $Azul;
-   text-align: center;
-   font-size: 20px;
-   margin-top: 100px;
-   margin-right: 20px;
-   margin-left: 20px ;
-}
+  color: #0182c2;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px }
 
+  #tituloStore {
+    margin-bottom: -40px;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-name: aparecer;
+   }
 
-@media (max-width: 991.98px) { #store { 
-display: flex;
-flex-wrap: wrap; } }
+@media (max-width: 991.98px) {
+  #store {
+    display: flex;
+    flex-wrap: wrap; } }
 
 .store #store {
-   margin-right: 20px;
-   margin-left: 20px ;
-}
-
+  margin-right: 20px;
+  margin-left: 20px; }
 
 #ordenar {
-   
-   font-size: 20px;
-   animation-duration: 2s;
-   animation-name: aparecer;
-  
-}
-
+  font-size: 20px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
 
 @keyframes aparecer {
-   0% {
-     opacity: 0;
-   }
-   100% {
-     opacity: 1;
-   } }
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

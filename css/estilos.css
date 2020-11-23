@@ -4,7 +4,12 @@ header {
 
 #grilla {
   display: grid;
-  grid-template-areas: "header" "principal" "partido" "marca" "form" "footer"; }
+  grid-template-areas: "header"
+ "principal"
+ "partido"
+ "marca"
+ "form"
+ "footer"; }
 
 header {
   grid-area: header; }
@@ -254,6 +259,10 @@ footer {
   animation-duration: 2s;
   animation-name: aparecer; }
 
+  .losInput {
+   width: 300px; }
+
+
 #tabla {
   text-align: center;
   margin: 0 auto;
@@ -314,7 +323,8 @@ footer {
   animation-name: aparecer; }
 
 #drop {
-  margin-left: 30px; }
+  margin-left: 30px;
+  margin-top: -20px; }
 
 #padreStoree {
   display: flex;
@@ -355,9 +365,22 @@ footer {
   color: #0182c2;
   text-align: center;
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 20px;
   margin-right: 20px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  margin-bottom: 20px }
+
+  #tituloStore {
+    margin-bottom: -40px;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-name: aparecer;
+   }
 
 @media (max-width: 991.98px) {
   #store {
