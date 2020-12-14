@@ -81,7 +81,7 @@ footer {
 .menuHome {
   color: #f3f3f3;
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   background-color: #0182c2;
   list-style-type: none;
   padding-top: 4px;
@@ -95,22 +95,20 @@ footer {
   padding-left: 13px;
   list-style-type: none; }
 
-.menuli:hover {
-  list-style-type: none;
-  background-color: black;
+  li {
+  display: inline-grid;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 13px; }
+  list-style-type: none;
+   }
+
 
 .seccion {
   list-style-type: none;
   margin-right: 18px;
-  color: white; }
+  color: #d7edf7;}
 
 .seccion:hover {
   text-decoration: none;
-  margin-right: 15px;
   color: white; }
 
 .inicio {
@@ -262,6 +260,14 @@ footer {
   .losInput {
    width: 300px; }
 
+   .formContacto {
+   width: 300px;
+   text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
 
 #tabla {
   text-align: center;
@@ -322,6 +328,7 @@ footer {
   animation-duration: 2s;
   animation-name: aparecer; }
 
+
 #drop {
   margin-left: 30px;
   margin-top: -20px; }
@@ -344,7 +351,8 @@ footer {
   height: 290px;
   width: 290px;
   margin: 50px 20px;
-  float: left; }
+  float: left;
+  align-self: center; }
 
 .contenedor img {
   position: absolute;
@@ -401,3 +409,14 @@ footer {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+
+
+
+
+
+
+
+
+
+
